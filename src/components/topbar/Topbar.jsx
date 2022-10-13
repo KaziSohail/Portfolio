@@ -1,3 +1,4 @@
+import React from 'react';
 import "./topbar.scss"
 import {Person,Mail} from "@material-ui/icons"
 export default function Topbar({menuOpen,setMenuOpen}) {
@@ -8,11 +9,11 @@ export default function Topbar({menuOpen,setMenuOpen}) {
           <a href="#intro" className="logo">genius.</a>
            <div className="itemContainer">
             <Person className="icon"/>
-            <span>+123 4567 890</span>
+            <span>+9022 567 555</span>
            </div>
            <div className="itemContainer">
             <Mail className="icon"/>
-            <span>Abcd123@gmail.com</span>
+            <span>Kazisohail555@gmail.com</span>
            </div>
         </div>
         <div className="right">

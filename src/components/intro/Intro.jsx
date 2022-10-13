@@ -1,15 +1,17 @@
 import { useEffect, useRef } from "react";
 import { init } from "ityped";
 import "./intro.scss";
-
+import React from "react";
 export default function Intro() {
   const textRef = useRef();
 
-  useEffect(() => {
+  useEffect(() => {{
     init(textRef.current, {
-      showCursor: false,
-      strings: ["Designer", "Developer" , "Content Creator"],
-    });
+      showCursor: true,
+      backDelay:  1500,
+      backSpeed:  50,
+      strings: ["Designer", "Developer", "Content Creator"],
+    })};
   }, []);
   return (
     <div className="intro" id="intro">
